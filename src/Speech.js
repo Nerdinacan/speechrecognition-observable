@@ -10,7 +10,7 @@ import 'rxjs/add/operator/share';
 import 'rxjs/add/operator/mergeMap'; // flatMap
 import 'rxjs/add/operator/do';
 
-import { RawSpeech } from 'RawSpeech';
+import { RawSpeech } from './RawSpeech';
 
 export function Speech(options = {}) {
 
