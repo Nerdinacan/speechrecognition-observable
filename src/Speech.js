@@ -1,6 +1,5 @@
 /**
- * Processes raw speech recognition results, caches speech
- * observable instances by options hash
+ * Processes raw speech recognition results
  */
 
 import { Observable } from 'rxjs/Observable';

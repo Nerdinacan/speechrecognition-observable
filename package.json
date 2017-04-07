@@ -5,9 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-	"compile": "rimraf dist/* && babel --presets es2015 -d dist/ src/",
-    "prepublish": "npm run compile",
-    "postinstall": "npm run compile"
+	"compile": "rimraf dist/* && babel --presets es2015 -d dist/ src/"
   },
   "repository": {
     "type": "git",

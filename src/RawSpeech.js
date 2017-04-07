@@ -77,11 +77,6 @@ export function buildInstance(observer, {
 	recognition.userStop = false;
 
 
-	// Lifecycle events, most of these are useless
-	// But I want to pass them through anyway for
-	// certain kinds of visual effects that fired
-	// when the engine is processing text
-
 	// when start method is called
 	recognition.onstart = passThru;
 
